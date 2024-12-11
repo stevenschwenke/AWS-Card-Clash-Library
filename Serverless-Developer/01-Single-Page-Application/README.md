@@ -1,4 +1,9 @@
-The following cost estimates were created using the [AWS Pricing Calculator](https://calculator.aws/). They  only provide a rough estimate, actual costs may vary. 
+# Architecture
+![Screenshot of architecture](screenshot.png)
+
+# Cost Estimation
+
+The following cost estimates were created using the [AWS Pricing Calculator](https://calculator.aws/). They  only provide a rough estimate, actual costs may vary.
 
 Region used: eu-central-1 (Frankfurt)
 

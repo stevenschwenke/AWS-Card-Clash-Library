@@ -25,7 +25,6 @@ This repository is only meant for learning purposes and not for production use.
 
 - [ ] Add all resources of new architecture in a directory named after the architecture
 - [ ] Tag all resources with the architecture tag (e.g. `architecture = "sd-01"` for the first example in the serverless developer track)
-- [ ] Add screenshots of the architecture
+- [ ] Add README.md with screenshots of the architecture and cost estimation
 - [ ] Add deployment diagram image with actual names of resources
 - [ ] Add scripts to interact with the architecture, for example to upload data or test the architecture
-- [ ] Add cost estimation for the architecture in cost-estimation.md
