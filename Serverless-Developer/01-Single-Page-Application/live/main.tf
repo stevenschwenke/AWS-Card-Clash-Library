@@ -9,10 +9,19 @@ module web-app {
     account_id = local.account_id
 }
 
+module backend {
+    source = "../modules/backend"
+    account_id = local.account_id
+}
+
 output "web_app_cloudfront_distribution_domain_name" {
     value = module.web-app.cloudfront_distribution_domain_name
 }
 
 output "web_app_cloudfront_distribution_id" {
     value = module.web-app.cloudfront_distribution_id
+}
+
+output "api_gateway_url" {
+    value = module.backend.api_gateway_url
 }
