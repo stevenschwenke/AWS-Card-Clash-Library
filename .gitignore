@@ -11,3 +11,6 @@
 
 # Ignore all MacOS files
 .DS_Store
+
+# DrawIO Backup files
+*.drawio.bkp
